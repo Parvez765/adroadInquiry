@@ -45,7 +45,7 @@ const Hero = () => {
     <Container maxWidth="sm">
       <Typography variant="h3" component="h2" mt={6}>
         Country List
-      </Typography>;
+      </Typography>
       <Box mt={4}>
         <Grid container spacing={4}>
           {allData?.map((item) => item.data?.map((d, i) => <>
